@@ -8,7 +8,8 @@ int main() {
 
     cout << "Enter numbers:" << endl;
 
-    while (true) {
+    while (true) 
+    {
         cin >> number;
 
         if (number == 0) {
