@@ -8,7 +8,7 @@ int main() {
     double fuelNeededAB, fuelNeededBC;
     double totalFuelNeeded;
 
-    // Запрос данных у пользователя
+    // Запрос данных у пользователя.
     std::cout << "Введите расстояние от пункта А до пункта В (в км): ";
     std::cin >> distanceAB;
     std::cout << "Введите расстояние от пункта В до пункта С (в км): ";
