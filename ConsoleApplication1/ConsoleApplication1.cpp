@@ -8,7 +8,7 @@ int main() {
     double fuelNeededAB, fuelNeededBC;
     double totalFuelNeeded;
 
-    // Запрос данных у пользователя.
+
     std::cout << "Введите расстояние от пункта А до пункта В (в км): ";
     std::cin >> distanceAB;
     std::cout << "Введите расстояние от пункта В до пункта С (в км): ";
@@ -16,7 +16,7 @@ int main() {
     std::cout << "Введите итоговый вес видеокарт (в кг): ";
     std::cin >> totalWeight;
 
-    // Определяем расход топлива в зависимости от веса
+    // расход топлива в зависимости от веса
     if (totalWeight > 1900) {
         std::cout << "перевес" << std::endl;
         return 0;
