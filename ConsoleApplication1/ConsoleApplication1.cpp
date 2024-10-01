@@ -1,6 +1,4 @@
 ﻿#include <iostream>
-#include <cstdlib>
-#include <ctime>
 int main() {
     const int SIZE = 20;
     int numbers[SIZE];
@@ -14,5 +12,5 @@ int main() {
             std::cout << std::endl;
         }
     }
-    return 0;
-}
+        return 0;
+    }
